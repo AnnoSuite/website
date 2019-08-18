@@ -2,5 +2,4 @@
   "version": 2,
   "name": "annosuite",
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
-  "alias": ["annosuite.com", "www.annosuite.com"]
 }
