@@ -1,0 +1,5 @@
+mutation subscribe($name: String, $email: EmailAddress!, $deviceType: String) {
+  subscribe(name: $name, email: $email, deviceType: $deviceType) {
+    success
+  }
+}

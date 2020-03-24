@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "newsletter": {
+      "name": "Newsletter",
+      "fields": {
+        "email": {
+          "type": "email",
+          "required": false
+        }
+      }
+    }
+  }
+}
