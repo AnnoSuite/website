@@ -4,6 +4,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import { apolloClient } from "../helpers/apolloClient";
 import { GlobalStyle } from "../atoms";
 import { useGA } from "../hooks/useGoogleAnalytics";
+import "../styles/index.css";
 
 const MyApp = props => {
   const { Component, pageProps } = props;

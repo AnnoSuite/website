@@ -1,7 +1,7 @@
-export { default as Container } from "./Container";
-export { default as Logo } from "./Logo";
-export { default as Heading } from "./Heading";
-export { default as Description } from "./Description";
-export { default as GlobalStyle } from "./GlobalStyle";
-export { default as SocialMediaLinks } from "./SocialMediaLinks";
-export { default as SocialMediaLink } from "./SocialMediaLink";
+export { default as Form } from "./Form";
+export * from "./illustrations";
+export * from "./SocialMediaBar";
+export * from "./Header";
+export * from "./Footer";
+export * from "./Toolbar";
+export * from "./EasterEgg";

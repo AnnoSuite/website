@@ -1,5 +1,20 @@
 {
   "version": 2,
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
-  "alias": ["annosuite.com", "www.annosuite.com"]
+  "routes": [
+    {
+      "src": "/images/(.*)",
+      "headers": { "cache-control": "s-maxage=604800" },
+      "dest": "/images/$1"
+    },
+    { "handle": "filesystem" }
+  ],
+  "env": {
+    "API": "https://tgql.annosuite.com/"
+  },
+  "build": {
+    "env": {
+      "API": "https://tgql.annosuite.com/"
+    }
+  }
 }
